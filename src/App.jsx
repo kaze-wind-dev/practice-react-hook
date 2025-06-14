@@ -33,7 +33,6 @@ export default function App() {
         const res = await fetch(url);
         const data = await res.json();
         setArticles(data);
-
       } catch (error) {
         console.error("エラーが発生しました:", error);
         return [];
@@ -41,14 +40,12 @@ export default function App() {
     };
     fetchData();
   }, []);
-// Top-Level-awaitとuseEffectの関係性も併せて、すごいすっきりしました！
   return (
     <div>
       <h1>Practice React</h1>
       <hr />
       <section>
         <h2>counter(useState)</h2>
-        {/* <MyButton /> */}
         <input type="button" onClick={() => countUp(counter)} value="+" />
         <input type="button" onClick={() => countDown(counter)} value="-" />
         {counter}
@@ -85,7 +82,6 @@ export default function App() {
 
       <hr />
 
-      <hr />
     </div>
   );
 }
