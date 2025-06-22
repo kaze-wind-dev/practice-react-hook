@@ -52,11 +52,3 @@ React の関数コンポーネントにおけるフック（Hooks）の使用方
 
 - [React 公式ドキュメント（日本語）](https://ja.react.dev/)
 - [React Hooks API Reference](https://react.dev/reference/react)
-
-## ライセンス
-
-このリポジトリは MIT ライセンスの下で公開されています。
-
----
-
-ご自由にご利用・ご参考ください！
