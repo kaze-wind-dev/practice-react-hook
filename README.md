@@ -20,7 +20,7 @@ React の関数コンポーネントにおけるフック（Hooks）の使用方
 1. このリポジトリをクローンします
 
    ```bash
-   git clone https://github.com/HayateIwamoto/practice-react-hook.git
+   git clone https://github.com/kaze-wind-dev/practice-react-hook.git
    cd practice-react-hook
    ```
 
